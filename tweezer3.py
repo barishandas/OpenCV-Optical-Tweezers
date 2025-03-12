@@ -1,23 +1,3 @@
-"""
-Simplified Implementation of AI-Enhanced Optical Tweezers Tracking and Analysis System
-
-This code provides a streamlined framework for tracking and analyzing particles in 
-optical tweezers experiments. It includes:
-1. Basic data handling and preprocessing
-2. Particle detection using traditional computer vision
-3. Simple particle tracking
-4. Basic physical analysis
-5. Visualization tools
-
-Requirements:
-- numpy
-- opencv-python
-- pandas
-- matplotlib
-- scikit-learn
-- scipy
-"""
-
 import os
 import numpy as np
 import pandas as pd
@@ -30,7 +10,6 @@ import time
 
 
 class OpticalTweezersData:
-    """Class for handling optical tweezers data"""
     def __init__(self, data_path: str = None):
         self.data_path = data_path
         
